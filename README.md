@@ -233,7 +233,7 @@ generate_bboxes num: 48
 |Class|Class|Class|Class|Class| System | Engine |  
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|      
 |✅[YOLOv5](https://github.com/xlite-dev/lite.ai.toolkit/blob/main/examples/lite/cv/test_lite_yolov5.cpp)|✅[YOLOv6](https://github.com/xlite-dev/lite.ai.toolkit/blob/main/examples/lite/cv/test_lite_yolov6.cpp)|✅[YOLOv8](https://github.com/xlite-dev/lite.ai.toolkit/blob/main/examples/lite/cv/test_lite_yolov8.cpp)|✅[YOLOv8Face](https://github.com/xlite-dev/lite.ai.toolkit/blob/main/examples/lite/cv/test_lite_yolov8face.cpp)|✅[YOLOv5Face](https://github.com/xlite-dev/lite.ai.toolkit/blob/main/examples/lite/cv/test_lite_yolo5face.cpp)|  Linux | TensorRT |  
-|✅[YOLOX](https://github.com/xlite-dev/lite.ai.toolkit/blob/main/examples/lite/cv/test_lite_yolox.cpp)|✅[YOLOv5BlazeFace](https://github.com/xlite-dev/lite.ai.toolkit/blob/main/examples/lite/cv/test_lite_yolov5_blazeface.cpp) |✅[StableDiffusion](https://github.com/xlite-dev/lite.ai.toolkit/blob/main/examples/lite/sd/test_lite_sd_pipeline.cpp)| / |  / |  Linux | TensorRT |
+|✅[YOLOX](https://github.com/xlite-dev/lite.ai.toolkit/blob/main/examples/lite/cv/test_lite_yolox.cpp)|✅[YOLOv5BlazeFace](https://github.com/xlite-dev/lite.ai.toolkit/blob/main/examples/lite/cv/test_lite_yolov5_blazeface.cpp) |✅[StableDiffusion](https://github.com/xlite-dev/lite.ai.toolkit/blob/main/examples/lite/sd/test_lite_sd_pipeline.cpp)| ✅[FaceFusion](https://github.com/xlite-dev/lite.ai.toolkit/blob/main/examples/lite/cv/test_lite_facefusion_pipeline_gpu.cpp) |  / |  Linux | TensorRT |
 
 
 ### CPU Inference: ONNXRuntime, MNN, NCNN and TNN
