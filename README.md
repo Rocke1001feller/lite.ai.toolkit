@@ -33,7 +33,7 @@
 </div>  
 
 ## News 👇👇
-Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Awesome-LLM-Inference](https://github.com/xlite-dev/Awesome-LLM-Inference)  ![](https://img.shields.io/github/stars/xlite-dev/Awesome-LLM-Inference.svg?style=social) and 📖[CUDA-Learn-Notes](https://github.com/xlite-dev/CUDA-Learn-Notes)  ![](https://img.shields.io/github/stars/xlite-dev/CUDA-Learn-Notes.svg?style=social) for more details. Now, [lite.ai.toolkit](https://github.com/xlite-dev/lite.ai.toolkit) ![](https://img.shields.io/github/stars/xlite-dev/lite.ai.toolkit.svg?style=social) is mainly maintained by 🎉[@wangzijian1010](https://github.com/wangzijian1010).
+Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Awesome-LLM-Inference](https://github.com/xlite-dev/Awesome-LLM-Inference)  ![](https://img.shields.io/github/stars/xlite-dev/Awesome-LLM-Inference.svg?style=social) and 📖[LeetCUDA](https://github.com/xlite-dev/LeetCUDA)  ![](https://img.shields.io/github/stars/xlite-dev/LeetCUDA.svg?style=social) for more details. Now, [lite.ai.toolkit](https://github.com/xlite-dev/lite.ai.toolkit) ![](https://img.shields.io/github/stars/xlite-dev/lite.ai.toolkit.svg?style=social) is mainly maintained by 🎉[@wangzijian1010](https://github.com/wangzijian1010).
 
 ## Citations 🎉🎉
 ```BibTeX
