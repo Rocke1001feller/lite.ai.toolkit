@@ -32,7 +32,15 @@
   <img src='https://github.com/xlite-dev/lite.ai.toolkit/assets/31974251/ef0eeabe-6dbe-4837-9aad-b806a8398697' height="80px" width="80px">  
 </div>  
 
-## News 👇👇
+## 📖 News 🔥🔥
+<div id="news"></div>
+
+- [2025-06-16]: [DBCache: Dual Block Caching](https://github.com/vipshop/DBCache) is release! A **Training-free UNet-style** Cache Acceleration for **Diffusion Transformers**! Feel free to take a try!  
+
+<div align='center'>
+  <img src='https://github.com/user-attachments/assets/a5ec4320-d2f9-4254-888a-170b2d9e3784' height="170px">
+</div>
+
 Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Awesome-LLM-Inference](https://github.com/xlite-dev/Awesome-LLM-Inference)  ![](https://img.shields.io/github/stars/xlite-dev/Awesome-LLM-Inference.svg?style=social) and 📖[LeetCUDA](https://github.com/xlite-dev/LeetCUDA)  ![](https://img.shields.io/github/stars/xlite-dev/LeetCUDA.svg?style=social) for more details. Now, [lite.ai.toolkit](https://github.com/xlite-dev/lite.ai.toolkit) ![](https://img.shields.io/github/stars/xlite-dev/lite.ai.toolkit.svg?style=social) is mainly maintained by 🎉[@wangzijian1010](https://github.com/wangzijian1010).
 
 ## Citations 🎉🎉
