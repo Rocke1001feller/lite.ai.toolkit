@@ -1099,9 +1099,15 @@ In addition, [MNN](https://github.com/alibaba/MNN), [NCNN](https://github.com/Te
 
 * change the `build.sh` with `DENABLE_MNN=ON`,`DENABLE_NCNN=ON` or `DENABLE_TNN=ON`, such as
 ```shell
+# 1. 清理构建目录
 cd build
-cmake -DCMAKE_BUILD_TYPE=MinSizeRel -DINCLUDE_OPENCV=ON -DENABLE_MNN=OFF -DENABLE_NCNN=ON -DENABLE_TNN=OFF ..
+# 3. 配置 CMake（同时启用 ONNX 和 NCNN）
+cmake -DCMAKE_BUILD_TYPE=MinSizeRel -DINCLUDE_OPENCV=ON -DENABLE_MNN=OFF -DENABLE_NCNN=ON -DENABLE_TNN=OFF -DENABLE_ONNXRUNTIME=ON ..
+# 4. 编译项目
 make -j8
+# 5. 测试运行
+cd lite.ai.toolkit/bin
+./lite_nanodet
 ```
 * use the MNN, NCNN or TNN version interface, see [demo](https://github.com/DefTruth/lite.ai.toolkit/blob/main/examples/lite/cv/test_lite_nanodet.cpp), such as
 ```C++

@@ -1,0 +1,860 @@
+guoliufang@LiuFang lite.ai.toolkit % cd build 
+guoliufang@LiuFang build % cmake -DCMAKE_BUILD_TYPE=MinSizeRel -DINCLUDE_OPENCV=ON -DENABLE_MNN=OFF -DENABLE_NCNN=ON -DENABLE_TNN=OFF -DENABLE_ONNXRUNTIME=ON ..
+-- The C compiler identification is AppleClang 16.0.0.16000026
+-- The CXX compiler identification is AppleClang 16.0.0.16000026
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+########## Checking Platform for: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit ###########
+====================================  Lite.AI.ToolKit  0.1.1 =============================
+Project: lite.ai.toolkit
+Version: 0.1.1
+SO Version: 0.1.1
+Build Type: MinSizeRel
+Platform Name: macos
+Root Path: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit
+================================================================================
+###################################  Engines Enable Details ...  #######################################
+-- INCLUDE_OPENCV: ON
+-- ENABLE_ONNXRUNTIME: ON
+-- ENABLE_MNN: OFF
+-- ENABLE_NCNN: ON
+-- ENABLE_TNN: OFF
+######################################################################################################
+########## Setting up OpenCV libs for: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit ###########
+###########################################################################################
+Installing Lite.AI.ToolKit Headers for ONNXRuntime Backend ...
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/core/ort_config.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/core/ort_core.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/core/ort_defs.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/core/ort_handler.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/core/ort_types.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/core/ort_utils.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/age_googlenet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/cava_combined_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/cava_ghost_arcface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/center_loss_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/colorizer.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/deeplabv3_resnet101.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/densenet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/efficient_emotion7.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/efficient_emotion8.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/efficientdet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/efficientdet_d7.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/efficientdet_d8.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/efficientnet_lite4.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/emotion_ferplus.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/face_landmarks_1000.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/faceboxes.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/facenet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/fast_style_transfer.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/fcn_resnet101.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/focal_arcface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/focal_asia_arcface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/fsanet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/gender_googlenet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/ghostnet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/glint_arcface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/glint_cosface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/glint_partial_fc.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/hardnet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/ibnnet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/mg_matting.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/mobile_emotion7.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/mobile_facenet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/mobilenetv2.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/mobilenetv2_68.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/mobilenetv2_se_68.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/mobilese_focal_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/naive_pose_robust_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/nanodet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/nanodet_efficientnet_lite.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/nanodet_plus.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/pfld.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/pfld68.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/pfld98.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/pose_robust_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/resnet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/resnext.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/retinaface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/rexnet_emotion7.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/rvm.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/scaled_yolov4.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/scrfd.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/shufflenetv2.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/sphere_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/ssd.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/ssd_mobilenetv1.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/ssrnet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/subpixel_cnn.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/tencent_cifp_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/tencent_curricular_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/tiny_yolov3.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/tiny_yolov4_coco.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/tiny_yolov4_voc.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/ultraface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/vgg16_age.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/vgg16_gender.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/yolo5face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/yolop.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/yolor.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/yolov3.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/yolov4.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/yolov5.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/yolov5_v6.0.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/yolox.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ort/cv/yolox_v0.1.1.h
+Installing Lite.AI.ToolKit Headers for NCNN Backend ...
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/core/ncnn_config.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/core/ncnn_core.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/core/ncnn_custom.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/core/ncnn_defs.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/core/ncnn_handler.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/core/ncnn_types.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/core/ncnn_utils.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_age_googlenet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_cava_combined_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_cava_ghost_arcface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_center_loss_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_colorizer.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_deeplabv3_resnet101.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_densenet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_efficient_emotion7.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_efficient_emotion8.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_efficientnet_lite4.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_emotion_ferplus.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_face_landmarks_1000.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_faceboxes.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_facenet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_fast_style_transfer.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_fcn_resnet101.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_focal_arcface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_focal_asia_arcface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_gender_googlenet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_ghostnet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_glint_arcface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_glint_cosface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_glint_partial_fc.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_hdrdnet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_ibnnet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_mobile_emotion7.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_mobile_facenet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_mobilenetv2.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_mobilenetv2_68.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_mobilenetv2_se_68.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_mobilese_focal_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_nanodet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_nanodet_depreciated.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_nanodet_efficientdet_lite_depreciated.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_nanodet_efficientnet_lite.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_nanodet_plus.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_pfld.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_pfld68.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_pfld98.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_resnet.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_resnext.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_retinaface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_rvm.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_scrfd.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_shufflenetv2.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_sphere_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_subpixel_cnn.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_tencent_cifp_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_tencent_curricular_face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_ultraface.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_yolo5face.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_yolop.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_yolor.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_yolor_ssss.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_yolov5.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_yolov5_v6.0.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_yolov5_v6.0_p6.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_yolox.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/ncnn/cv/ncnn_yolox_v0.1.1.h
+Installing Lite.AI.ToolKit Headers ...
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/backend.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/config.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/lite.ai.defs.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/lite.ai.headers.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/lite.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/models.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/pipeline.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/types.h
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/lite/utils.h
+>>>> Added Shared Library: lite.ai.toolkit !
+Installing OpenCV libs        ->  INCLUDE_OPENCV:      ON ...
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_calib3d.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_calib3d.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_core.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_core.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_features2d.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_features2d.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_flann.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_flann.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_gapi.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_gapi.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_highgui.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_highgui.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_imgcodecs.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_imgcodecs.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_imgproc.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_imgproc.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_ml.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_ml.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_objdetect.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_objdetect.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_photo.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_photo.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_stitching.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_stitching.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_video.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_video.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_videoio.4.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libopencv_videoio.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libavcodec.58.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libavcodec.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libavdevice.58.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libavdevice.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libavfilter.7.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libavfilter.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libavformat.58.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libavformat.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libavutil.56.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libavutil.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libswresample.3.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libswresample.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libswscale.5.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libswscale.dylib
+Installing ONNXRuntime libs  ->  ENABLE_ONNXRUNTIME: ON ...
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libonnxruntime.1.7.0.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libonnxruntime.dylib
+Installing NCNN libs        ->  ENABLE_NCNN:         ON ...
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libncnn.1.dylib
+-- Installing: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib/libncnn.dylib
+>>>> Added Lite Executable: lite_age_googlenet !
+>>>> Added Lite Executable: lite_fsanet !
+>>>> Added Lite Executable: lite_colorizer !
+>>>> Added Lite Executable: lite_deeplabv3_resnet101 !
+>>>> Added Lite Executable: lite_densenet !
+>>>> Added Lite Executable: lite_efficientnet_lite4 !
+>>>> Added Lite Executable: lite_emotion_ferplus !
+>>>> Added Lite Executable: lite_fast_style_transfer !
+>>>> Added Lite Executable: lite_fcn_resnet101 !
+>>>> Added Lite Executable: lite_gender_googlenet !
+>>>> Added Lite Executable: lite_ghostnet !
+>>>> Added Lite Executable: lite_hardnet !
+>>>> Added Lite Executable: lite_ibnnet !
+>>>> Added Lite Executable: lite_mobilenetv2 !
+>>>> Added Lite Executable: lite_pfld !
+>>>> Added Lite Executable: lite_resnet !
+>>>> Added Lite Executable: lite_resnext !
+>>>> Added Lite Executable: lite_shufflenetv2 !
+>>>> Added Lite Executable: lite_ssrnet !
+>>>> Added Lite Executable: lite_subpixel_cnn !
+>>>> Added Lite Executable: lite_ultraface !
+>>>> Added Lite Executable: lite_vgg16_age !
+>>>> Added Lite Executable: lite_vgg16_gender !
+>>>> Added Lite Executable: lite_yolov3 !
+>>>> Added Lite Executable: lite_yolov4 !
+>>>> Added Lite Executable: lite_yolov5 !
+>>>> Added Lite Executable: lite_tiny_yolov3 !
+>>>> Added Lite Executable: lite_ssd !
+>>>> Added Lite Executable: lite_ssd_mobilenetv1 !
+>>>> Added Lite Executable: lite_glint_arcface !
+>>>> Added Lite Executable: lite_glint_cosface !
+>>>> Added Lite Executable: lite_glint_partial_fc !
+>>>> Added Lite Executable: lite_facenet !
+>>>> Added Lite Executable: lite_focal_arcface !
+>>>> Added Lite Executable: lite_focal_asia_arcface !
+>>>> Added Lite Executable: lite_tencent_cifp_face !
+>>>> Added Lite Executable: lite_tencent_curricular_face !
+>>>> Added Lite Executable: lite_center_loss_face !
+>>>> Added Lite Executable: lite_sphere_face !
+>>>> Added Lite Executable: lite_pose_robust_face !
+>>>> Added Lite Executable: lite_naive_pose_robust_face !
+>>>> Added Lite Executable: lite_mobile_facenet !
+>>>> Added Lite Executable: lite_cava_ghost_arcface !
+>>>> Added Lite Executable: lite_cava_combined_face !
+>>>> Added Lite Executable: lite_yolox !
+>>>> Added Lite Executable: lite_mobilese_focal_face !
+>>>> Added Lite Executable: lite_efficient_emotion7 !
+>>>> Added Lite Executable: lite_efficient_emotion8 !
+>>>> Added Lite Executable: lite_rexnet_emotion7 !
+>>>> Added Lite Executable: lite_mobile_emotion7 !
+>>>> Added Lite Executable: lite_pfld98 !
+>>>> Added Lite Executable: lite_pfld68 !
+>>>> Added Lite Executable: lite_mobilenetv2_68 !
+>>>> Added Lite Executable: lite_mobilenetv2_se_68 !
+>>>> Added Lite Executable: lite_face_landmarks_1000 !
+>>>> Added Lite Executable: lite_retinaface !
+>>>> Added Lite Executable: lite_faceboxes !
+>>>> Added Lite Executable: lite_tiny_yolov4_voc !
+>>>> Added Lite Executable: lite_tiny_yolov4_coco !
+>>>> Added Lite Executable: lite_yolor !
+>>>> Added Lite Executable: lite_scaled_yolov4 !
+>>>> Added Lite Executable: lite_efficientdet !
+>>>> Added Lite Executable: lite_efficientdet_d7 !
+>>>> Added Lite Executable: lite_efficientdet_d8 !
+>>>> Added Lite Executable: lite_yolop !
+>>>> Added Lite Executable: lite_rvm !
+>>>> Added Lite Executable: lite_nanodet !
+>>>> Added Lite Executable: lite_nanodet_efficientnet_lite !
+>>>> Added Lite Executable: lite_nanodet_depreciated !
+>>>> Added Lite Executable: lite_nanodet_efficientnet_lite_depreciated !
+>>>> Added Lite Executable: lite_yolox_v0.1.1 !
+>>>> Added Lite Executable: lite_yolov5_v6.0 !
+>>>> Added Lite Executable: lite_mg_matting !
+>>>> Added Lite Executable: lite_nanodet_plus !
+>>>> Added Lite Executable: lite_scrfd !
+>>>> Added Lite Executable: lite_yolo5face !
+-- Configuring done (2.3s)
+-- Generating done (0.8s)
+-- Build files have been written to: /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build
+guoliufang@LiuFang build % make -j8
+[  0%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/age_googlenet.cpp.o
+[  2%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/cava_combined_face.cpp.o
+[  2%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/colorizer.cpp.o
+[  2%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/center_loss_face.cpp.o
+[  2%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/deeplabv3_resnet101.cpp.o
+[  2%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/utils.cpp.o
+[  2%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/cava_ghost_arcface.cpp.o
+[  2%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/densenet.cpp.o
+[  2%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/efficient_emotion8.cpp.o
+[  3%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/efficient_emotion7.cpp.o
+[  3%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/efficientdet.cpp.o
+[  4%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/efficientdet_d7.cpp.o
+[  4%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/efficientdet_d8.cpp.o
+[  4%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/efficientnet_lite4.cpp.o
+[  5%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/emotion_ferplus.cpp.o
+[  5%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/face_landmarks_1000.cpp.o
+[  5%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/faceboxes.cpp.o
+[  6%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/facenet.cpp.o
+[  6%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/fast_style_transfer.cpp.o
+[  6%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/fcn_resnet101.cpp.o
+[  7%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/focal_arcface.cpp.o
+[  7%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/focal_asia_arcface.cpp.o
+[  7%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/fsanet.cpp.o
+[  8%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/gender_googlenet.cpp.o
+[  8%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/ghostnet.cpp.o
+[  8%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/glint_arcface.cpp.o
+[  9%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/glint_cosface.cpp.o
+[  9%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/glint_partial_fc.cpp.o
+[  9%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/hardnet.cpp.o
+[ 10%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/ibnnet.cpp.o
+[ 10%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/mg_matting.cpp.o
+[ 10%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/mobile_emotion7.cpp.o
+[ 11%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/mobile_facenet.cpp.o
+[ 11%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/mobilenetv2.cpp.o
+[ 11%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/mobilenetv2_68.cpp.o
+[ 12%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/mobilenetv2_se_68.cpp.o
+[ 12%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/mobilese_focal_face.cpp.o
+[ 13%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/naive_pose_robust_face.cpp.o
+[ 13%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/nanodet.cpp.o
+[ 13%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/nanodet_efficientnet_lite.cpp.o
+[ 14%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/nanodet_plus.cpp.o
+[ 14%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/pfld.cpp.o
+[ 14%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/pfld68.cpp.o
+[ 15%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/pfld98.cpp.o
+[ 15%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/pose_robust_face.cpp.o
+[ 15%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/resnet.cpp.o
+[ 16%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/resnext.cpp.o
+[ 16%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/retinaface.cpp.o
+[ 16%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/rexnet_emotion7.cpp.o
+[ 17%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/rvm.cpp.o
+[ 17%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/scaled_yolov4.cpp.o
+[ 17%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/scrfd.cpp.o
+[ 18%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/shufflenetv2.cpp.o
+[ 18%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/sphere_face.cpp.o
+[ 18%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/ssd.cpp.o
+[ 19%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/ssd_mobilenetv1.cpp.o
+[ 19%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/ssrnet.cpp.o
+[ 19%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/subpixel_cnn.cpp.o
+[ 20%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/tencent_cifp_face.cpp.o
+[ 20%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/tencent_curricular_face.cpp.o
+[ 20%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/tiny_yolov3.cpp.o
+[ 21%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/tiny_yolov4_coco.cpp.o
+[ 21%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/tiny_yolov4_voc.cpp.o
+[ 21%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/ultraface.cpp.o
+[ 22%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/vgg16_age.cpp.o
+[ 22%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/vgg16_gender.cpp.o
+[ 22%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/yolo5face.cpp.o
+[ 23%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/yolop.cpp.o
+[ 23%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/yolor.cpp.o
+[ 23%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/yolov3.cpp.o
+[ 24%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/yolov4.cpp.o
+[ 24%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/yolov5.cpp.o
+[ 25%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/yolov5_v6.0.cpp.o
+[ 25%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/yolox.cpp.o
+[ 25%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/cv/yolox_v0.1.1.cpp.o
+[ 26%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/core/ort_handler.cpp.o
+[ 26%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ort/core/ort_utils.cpp.o
+[ 26%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_age_googlenet.cpp.o
+[ 27%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_cava_combined_face.cpp.o
+[ 27%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_cava_ghost_arcface.cpp.o
+[ 27%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_center_loss_face.cpp.o
+[ 28%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_colorizer.cpp.o
+[ 28%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_deeplabv3_resnet101.cpp.o
+[ 28%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_densent.cpp.o
+[ 29%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_efficient_emotion7.cpp.o
+[ 29%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_efficient_emotion8.cpp.o
+[ 29%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_efficientnet_lite4.cpp.o
+[ 30%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_emotion_ferplus.cpp.o
+[ 30%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_face_landmarks_1000.cpp.o
+[ 30%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_faceboxes.cpp.o
+[ 31%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_facenet.cpp.o
+[ 31%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_fast_style_transfer.cpp.o
+[ 31%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_fcn_resnet101.cpp.o
+[ 32%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_focal_arcface.cpp.o
+[ 32%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_focal_asia_arcface.cpp.o
+[ 32%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_gender_googlenet.cpp.o
+[ 33%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_ghostnet.cpp.o
+[ 33%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_glint_arcface.cpp.o
+[ 33%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_glint_cosface.cpp.o
+[ 34%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_glint_partial_fc.cpp.o
+[ 34%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_hdrdnet.cpp.o
+[ 34%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_ibnnet.cpp.o
+[ 35%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_mobile_emotion7.cpp.o
+[ 35%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_mobile_facenet.cpp.o
+[ 35%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_mobilenetv2.cpp.o
+[ 36%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_mobilenetv2_68.cpp.o
+[ 36%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_mobilenetv2_se_68.cpp.o
+[ 36%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_mobilese_focal_face.cpp.o
+[ 37%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_nanodet.cpp.o
+[ 37%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_nanodet_depreciated.cpp.o
+[ 38%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_nanodet_efficientnet_lite.cpp.o
+[ 38%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_nanodet_efficientnet_lite_depreciated.cpp.o
+[ 38%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_nanodet_plus.cpp.o
+[ 39%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_pfld.cpp.o
+[ 39%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_pfld68.cpp.o
+[ 39%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_pfld98.cpp.o
+[ 40%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_resnet.cpp.o
+[ 40%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_resnext.cpp.o
+[ 40%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_retinaface.cpp.o
+[ 41%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_rvm.cpp.o
+[ 41%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_scrfd.cpp.o
+[ 41%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_shufflenetv2.cpp.o
+[ 42%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_sphere_face.cpp.o
+[ 42%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_subpixel_cnn.cpp.o
+[ 42%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_tencent_cifp_face.cpp.o
+[ 43%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_tencent_curricular_face.cpp.o
+[ 43%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_ultraface.cpp.o
+[ 43%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_yolo5face.cpp.o
+[ 44%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_yolop.cpp.o
+[ 44%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_yolor.cpp.o
+[ 44%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_yolor_ssss.cpp.o
+[ 45%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_yolov5.cpp.o
+[ 45%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_yolov5_v6.0.cpp.o
+[ 45%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_yolov5_v6.0_p6.cpp.o
+[ 46%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_yolox.cpp.o
+[ 46%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/cv/ncnn_yolox_v0.1.1.cpp.o
+[ 46%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/core/ncnn_custom.cpp.o
+[ 47%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/core/ncnn_handler.cpp.o
+[ 47%] Building CXX object CMakeFiles/lite.ai.toolkit.dir/lite/ncnn/core/ncnn_utils.cpp.o
+[ 47%] Linking CXX shared library lite.ai.toolkit/lib/liblite.ai.toolkit.dylib
+Preparing  /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/lib ... done!
+Preparing  /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/bin ... done!
+Installing opencv2 headers to /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/opencv2 ... done!
+Installing onnxruntime headers to /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/onnxruntime ... done!
+Installing NCNN headers to /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/include/ncnn ... done!
+Installing all lite.ai.toolkit libs to /Users/guoliufang/Documents/Pay/Sell-SDK/offline-sdk/lite.ai.toolkit/build/lite.ai.toolkit/bin ... done!
+[ 47%] Built target lite.ai.toolkit
+[ 47%] Building CXX object examples/lite/CMakeFiles/lite_fsanet.dir/cv/test_lite_fsanet.cpp.o
+[ 47%] Building CXX object examples/lite/CMakeFiles/lite_deeplabv3_resnet101.dir/cv/test_lite_deeplabv3_resnet101.cpp.o
+[ 47%] Building CXX object examples/lite/CMakeFiles/lite_efficientnet_lite4.dir/cv/test_lite_efficientnet_lite4.cpp.o
+[ 47%] Building CXX object examples/lite/CMakeFiles/lite_fast_style_transfer.dir/cv/test_lite_fast_style_transfer.cpp.o
+[ 48%] Building CXX object examples/lite/CMakeFiles/lite_colorizer.dir/cv/test_lite_colorizer.cpp.o
+[ 49%] Building CXX object examples/lite/CMakeFiles/lite_age_googlenet.dir/cv/test_lite_age_googlenet.cpp.o
+[ 50%] Building CXX object examples/lite/CMakeFiles/lite_emotion_ferplus.dir/cv/test_lite_emotion_ferplus.cpp.o
+[ 50%] Building CXX object examples/lite/CMakeFiles/lite_densenet.dir/cv/test_lite_densenet.cpp.o
+[ 50%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_age_googlenet
+[ 50%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_emotion_ferplus
+[ 51%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_fsanet
+[ 51%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_efficientnet_lite4
+[ 52%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_deeplabv3_resnet101
+[ 52%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_colorizer
+[ 52%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_densenet
+[ 53%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_fast_style_transfer
+[ 53%] Built target lite_age_googlenet
+[ 53%] Built target lite_emotion_ferplus
+[ 53%] Built target lite_fsanet
+[ 53%] Built target lite_efficientnet_lite4
+[ 53%] Building CXX object examples/lite/CMakeFiles/lite_fcn_resnet101.dir/cv/test_lite_fcn_resnet101.cpp.o
+[ 53%] Building CXX object examples/lite/CMakeFiles/lite_gender_googlenet.dir/cv/test_lite_gender_googlenet.cpp.o
+[ 53%] Built target lite_densenet
+[ 53%] Built target lite_deeplabv3_resnet101
+[ 53%] Built target lite_colorizer
+[ 54%] Building CXX object examples/lite/CMakeFiles/lite_ghostnet.dir/cv/test_lite_ghostnet.cpp.o
+[ 54%] Building CXX object examples/lite/CMakeFiles/lite_hardnet.dir/cv/test_lite_hardnet.cpp.o
+[ 54%] Built target lite_fast_style_transfer
+[ 54%] Building CXX object examples/lite/CMakeFiles/lite_ibnnet.dir/cv/test_lite_ibnnet.cpp.o
+[ 55%] Building CXX object examples/lite/CMakeFiles/lite_mobilenetv2.dir/cv/test_lite_mobilenetv2.cpp.o
+[ 56%] Building CXX object examples/lite/CMakeFiles/lite_pfld.dir/cv/test_lite_pfld.cpp.o
+[ 56%] Building CXX object examples/lite/CMakeFiles/lite_resnet.dir/cv/test_lite_resnet.cpp.o
+[ 56%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_gender_googlenet
+[ 56%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_pfld
+[ 56%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_ghostnet
+[ 57%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_hardnet
+[ 57%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_fcn_resnet101
+[ 57%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_ibnnet
+[ 57%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_mobilenetv2
+[ 57%] Built target lite_gender_googlenet
+[ 58%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_resnet
+[ 58%] Built target lite_pfld
+[ 58%] Built target lite_fcn_resnet101
+[ 58%] Building CXX object examples/lite/CMakeFiles/lite_resnext.dir/cv/test_lite_resnext.cpp.o
+[ 58%] Built target lite_ghostnet
+[ 58%] Built target lite_hardnet
+[ 59%] Building CXX object examples/lite/CMakeFiles/lite_ssrnet.dir/cv/test_lite_ssrnet.cpp.o
+[ 59%] Built target lite_ibnnet
+[ 60%] Building CXX object examples/lite/CMakeFiles/lite_subpixel_cnn.dir/cv/test_lite_subpixel_cnn.cpp.o
+[ 60%] Building CXX object examples/lite/CMakeFiles/lite_shufflenetv2.dir/cv/test_lite_shufflenetv2.cpp.o
+[ 61%] Building CXX object examples/lite/CMakeFiles/lite_ultraface.dir/cv/test_lite_ultraface.cpp.o
+[ 61%] Built target lite_mobilenetv2
+[ 61%] Built target lite_resnet
+[ 61%] Building CXX object examples/lite/CMakeFiles/lite_vgg16_age.dir/cv/test_lite_vgg16_age.cpp.o
+[ 61%] Building CXX object examples/lite/CMakeFiles/lite_vgg16_gender.dir/cv/test_lite_vgg16_gender.cpp.o
+[ 62%] Building CXX object examples/lite/CMakeFiles/lite_yolov3.dir/cv/test_lite_yolov3.cpp.o
+[ 62%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_ssrnet
+[ 62%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_subpixel_cnn
+[ 62%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_ultraface
+[ 63%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_vgg16_age
+[ 63%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_vgg16_gender
+[ 63%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_resnext
+[ 63%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_shufflenetv2
+[ 63%] Built target lite_ssrnet
+[ 63%] Built target lite_subpixel_cnn
+[ 63%] Built target lite_ultraface
+[ 63%] Built target lite_vgg16_age
+[ 63%] Building CXX object examples/lite/CMakeFiles/lite_yolov4.dir/cv/test_lite_yolov4.cpp.o
+[ 63%] Built target lite_vgg16_gender
+[ 63%] Building CXX object examples/lite/CMakeFiles/lite_yolov5.dir/cv/test_lite_yolov5.cpp.o
+[ 63%] Built target lite_resnext
+[ 63%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_yolov3
+[ 63%] Built target lite_shufflenetv2
+[ 64%] Building CXX object examples/lite/CMakeFiles/lite_tiny_yolov3.dir/cv/test_lite_tiny_yolov3.cpp.o
+[ 64%] Building CXX object examples/lite/CMakeFiles/lite_ssd.dir/cv/test_lite_ssd.cpp.o
+[ 64%] Building CXX object examples/lite/CMakeFiles/lite_ssd_mobilenetv1.dir/cv/test_lite_ssd_mobilenetv1.cpp.o
+[ 64%] Building CXX object examples/lite/CMakeFiles/lite_glint_arcface.dir/cv/test_lite_glint_arcface.cpp.o
+[ 64%] Building CXX object examples/lite/CMakeFiles/lite_glint_cosface.dir/cv/test_lite_glint_cosface.cpp.o
+[ 64%] Built target lite_yolov3
+[ 65%] Building CXX object examples/lite/CMakeFiles/lite_glint_partial_fc.dir/cv/test_lite_glint_partial_fc.cpp.o
+[ 65%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_tiny_yolov3
+[ 65%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_yolov5
+[ 66%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_ssd
+[ 67%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_yolov4
+[ 68%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_glint_arcface
+[ 68%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_ssd_mobilenetv1
+[ 68%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_glint_cosface
+[ 68%] Built target lite_tiny_yolov3
+[ 68%] Built target lite_ssd
+[ 68%] Built target lite_yolov4
+[ 68%] Built target lite_yolov5
+[ 68%] Built target lite_ssd_mobilenetv1
+[ 68%] Built target lite_glint_arcface
+[ 69%] Building CXX object examples/lite/CMakeFiles/lite_facenet.dir/cv/test_lite_facenet.cpp.o
+[ 69%] Building CXX object examples/lite/CMakeFiles/lite_focal_asia_arcface.dir/cv/test_lite_focal_asia_arcface.cpp.o
+[ 70%] Building CXX object examples/lite/CMakeFiles/lite_focal_arcface.dir/cv/test_lite_focal_arcface.cpp.o
+[ 70%] Building CXX object examples/lite/CMakeFiles/lite_tencent_cifp_face.dir/cv/test_lite_tencent_cifp_face.cpp.o
+[ 70%] Built target lite_glint_cosface
+[ 70%] Building CXX object examples/lite/CMakeFiles/lite_center_loss_face.dir/cv/test_lite_center_loss_face.cpp.o
+[ 70%] Building CXX object examples/lite/CMakeFiles/lite_tencent_curricular_face.dir/cv/test_lite_tencent_curricular_face.cpp.o
+[ 71%] Building CXX object examples/lite/CMakeFiles/lite_sphere_face.dir/cv/test_lite_sphere_face.cpp.o
+[ 71%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_glint_partial_fc
+[ 71%] Built target lite_glint_partial_fc
+[ 72%] Building CXX object examples/lite/CMakeFiles/lite_pose_robust_face.dir/cv/test_lite_pose_robust_face.cpp.o
+[ 73%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_focal_asia_arcface
+[ 73%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_focal_arcface
+[ 74%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_tencent_cifp_face
+[ 74%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_facenet
+[ 74%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_center_loss_face
+[ 74%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_tencent_curricular_face
+[ 74%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_sphere_face
+[ 74%] Built target lite_focal_asia_arcface
+[ 74%] Built target lite_tencent_cifp_face
+[ 74%] Built target lite_focal_arcface
+[ 74%] Built target lite_facenet
+[ 74%] Built target lite_center_loss_face
+[ 74%] Building CXX object examples/lite/CMakeFiles/lite_naive_pose_robust_face.dir/cv/test_lite_naive_pose_robust_face.cpp.o
+[ 74%] Building CXX object examples/lite/CMakeFiles/lite_mobile_facenet.dir/cv/test_lite_mobile_facenet.cpp.o
+[ 74%] Built target lite_tencent_curricular_face
+[ 74%] Building CXX object examples/lite/CMakeFiles/lite_cava_ghost_arcface.dir/cv/test_lite_cava_ghost_arcface.cpp.o
+[ 74%] Building CXX object examples/lite/CMakeFiles/lite_cava_combined_face.dir/cv/test_lite_cava_combined_face.cpp.o
+[ 74%] Built target lite_sphere_face
+[ 74%] Building CXX object examples/lite/CMakeFiles/lite_yolox.dir/cv/test_lite_yolox.cpp.o
+[ 75%] Building CXX object examples/lite/CMakeFiles/lite_mobilese_focal_face.dir/cv/test_lite_mobilese_focal_face.cpp.o
+[ 76%] Building CXX object examples/lite/CMakeFiles/lite_efficient_emotion7.dir/cv/test_lite_efficient_emotion7.cpp.o
+[ 76%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_pose_robust_face
+[ 76%] Built target lite_pose_robust_face
+[ 76%] Building CXX object examples/lite/CMakeFiles/lite_efficient_emotion8.dir/cv/test_lite_efficient_emotion8.cpp.o
+[ 77%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_naive_pose_robust_face
+[ 78%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_cava_ghost_arcface
+[ 78%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_mobile_facenet
+[ 79%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_cava_combined_face
+[ 79%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_mobilese_focal_face
+[ 80%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_yolox
+[ 80%] Built target lite_naive_pose_robust_face
+[ 80%] Built target lite_cava_ghost_arcface
+[ 80%] Built target lite_mobile_facenet
+[ 80%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_efficient_emotion7
+[ 80%] Built target lite_cava_combined_face
+[ 80%] Building CXX object examples/lite/CMakeFiles/lite_rexnet_emotion7.dir/cv/test_lite_rexnet_emotion7.cpp.o
+[ 80%] Building CXX object examples/lite/CMakeFiles/lite_pfld98.dir/cv/test_lite_pfld98.cpp.o
+[ 80%] Built target lite_mobilese_focal_face
+[ 80%] Building CXX object examples/lite/CMakeFiles/lite_mobile_emotion7.dir/cv/test_lite_mobile_emotion7.cpp.o
+[ 80%] Built target lite_yolox
+[ 80%] Building CXX object examples/lite/CMakeFiles/lite_pfld68.dir/cv/test_lite_pfld68.cpp.o
+[ 80%] Building CXX object examples/lite/CMakeFiles/lite_mobilenetv2_68.dir/cv/test_lite_mobilenetv2_68.cpp.o
+[ 80%] Building CXX object examples/lite/CMakeFiles/lite_mobilenetv2_se_68.dir/cv/test_lite_mobilenetv2_se_68.cpp.o
+[ 80%] Built target lite_efficient_emotion7
+[ 80%] Building CXX object examples/lite/CMakeFiles/lite_face_landmarks_1000.dir/cv/test_lite_face_landmarks_1000.cpp.o
+[ 81%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_efficient_emotion8
+[ 81%] Built target lite_efficient_emotion8
+[ 82%] Building CXX object examples/lite/CMakeFiles/lite_retinaface.dir/cv/test_lite_retinaface.cpp.o
+[ 84%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_mobile_emotion7
+[ 84%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_rexnet_emotion7
+[ 84%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_pfld98
+[ 85%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_mobilenetv2_68
+[ 85%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_mobilenetv2_se_68
+[ 86%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_pfld68
+[ 86%] Built target lite_mobile_emotion7
+[ 86%] Built target lite_pfld98
+[ 86%] Built target lite_rexnet_emotion7
+[ 86%] Built target lite_mobilenetv2_68
+[ 86%] Built target lite_pfld68
+[ 86%] Building CXX object examples/lite/CMakeFiles/lite_tiny_yolov4_coco.dir/cv/test_lite_tiny_yolov4_coco.cpp.o
+[ 86%] Building CXX object examples/lite/CMakeFiles/lite_faceboxes.dir/cv/test_lite_faceboxes.cpp.o
+[ 86%] Building CXX object examples/lite/CMakeFiles/lite_tiny_yolov4_voc.dir/cv/test_lite_tiny_yolov4_voc.cpp.o
+[ 86%] Built target lite_mobilenetv2_se_68
+[ 87%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_face_landmarks_1000
+[ 87%] Building CXX object examples/lite/CMakeFiles/lite_yolor.dir/cv/test_lite_yolor.cpp.o
+[ 88%] Building CXX object examples/lite/CMakeFiles/lite_scaled_yolov4.dir/cv/test_lite_scaled_yolov4.cpp.o
+[ 88%] Building CXX object examples/lite/CMakeFiles/lite_efficientdet.dir/cv/test_lite_efficientdet.cpp.o
+[ 88%] Built target lite_face_landmarks_1000
+[ 89%] Building CXX object examples/lite/CMakeFiles/lite_efficientdet_d7.dir/cv/test_lite_efficientdet_d7.cpp.o
+[ 89%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_retinaface
+[ 89%] Built target lite_retinaface
+[ 89%] Building CXX object examples/lite/CMakeFiles/lite_efficientdet_d8.dir/cv/test_lite_efficientdet_d8.cpp.o
+[ 89%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_tiny_yolov4_voc
+[ 90%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_tiny_yolov4_coco
+[ 90%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_scaled_yolov4
+[ 90%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_yolor
+[ 90%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_faceboxes
+[ 90%] Built target lite_tiny_yolov4_voc
+[ 90%] Built target lite_tiny_yolov4_coco
+[ 90%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_efficientdet
+[ 90%] Built target lite_scaled_yolov4
+[ 90%] Building CXX object examples/lite/CMakeFiles/lite_yolop.dir/cv/test_lite_yolop.cpp.o
+[ 90%] Built target lite_faceboxes
+[ 90%] Built target lite_yolor
+[ 90%] Building CXX object examples/lite/CMakeFiles/lite_rvm.dir/cv/test_lite_rvm.cpp.o
+[ 90%] Building CXX object examples/lite/CMakeFiles/lite_nanodet.dir/cv/test_lite_nanodet.cpp.o
+[ 92%] Building CXX object examples/lite/CMakeFiles/lite_nanodet_efficientnet_lite.dir/cv/test_lite_nanodet_efficientnet_lite.cpp.o
+[ 92%] Building CXX object examples/lite/CMakeFiles/lite_nanodet_depreciated.dir/cv/test_lite_nanodet_depreciated.cpp.o
+[ 92%] Built target lite_efficientdet
+[ 92%] Building CXX object examples/lite/CMakeFiles/lite_nanodet_efficientnet_lite_depreciated.dir/cv/test_lite_nanodet_efficientnet_lite_depreciated.cpp.o
+[ 92%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_efficientdet_d7
+[ 92%] Built target lite_efficientdet_d7
+[ 92%] Building CXX object examples/lite/CMakeFiles/lite_yolox_v0.1.1.dir/cv/test_lite_yolox_v0.1.1.cpp.o
+[ 93%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_efficientdet_d8
+[ 93%] Built target lite_efficientdet_d8
+[ 94%] Building CXX object examples/lite/CMakeFiles/lite_yolov5_v6.0.dir/cv/test_lite_yolov5_v6.0.cpp.o
+[ 94%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_rvm
+[ 94%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_nanodet
+[ 94%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_nanodet_depreciated
+[ 94%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_nanodet_efficientnet_lite
+[ 94%] Built target lite_rvm
+[ 95%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_yolop
+[ 96%] Building CXX object examples/lite/CMakeFiles/lite_mg_matting.dir/cv/test_lite_mg_matting.cpp.o
+[ 96%] Built target lite_nanodet
+[ 96%] Built target lite_nanodet_depreciated
+[ 96%] Built target lite_nanodet_efficientnet_lite
+[ 96%] Building CXX object examples/lite/CMakeFiles/lite_nanodet_plus.dir/cv/test_lite_nanodet_plus.cpp.o
+[ 96%] Built target lite_yolop
+[ 96%] Building CXX object examples/lite/CMakeFiles/lite_scrfd.dir/cv/test_lite_scrfd.cpp.o
+[ 97%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_nanodet_efficientnet_lite_depreciated
+[ 98%] Building CXX object examples/lite/CMakeFiles/lite_yolo5face.dir/cv/test_lite_yolo5face.cpp.o
+[ 98%] Built target lite_nanodet_efficientnet_lite_depreciated
+[ 99%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_yolox_v0.1.1
+[ 99%] Built target lite_yolox_v0.1.1
+[ 99%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_yolov5_v6.0
+[ 99%] Built target lite_yolov5_v6.0
+[ 99%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_mg_matting
+[ 99%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_nanodet_plus
+[100%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_scrfd
+[100%] Linking CXX executable ../../lite.ai.toolkit/bin/lite_yolo5face
+[100%] Built target lite_mg_matting
+[100%] Built target lite_nanodet_plus
+[100%] Built target lite_scrfd
+[100%] Built target lite_yolo5face
+guoliufang@LiuFang build % cd lite.ai.toolkit/bin
+guoliufang@LiuFang bin % ./lite_nanodet
+libc++abi: terminating due to uncaught exception of type Ort::Exception: Load model from ../../../hub/onnx/cv/nanodet_m.onnx failed:Load model ../../../hub/onnx/cv/nanodet_m.onnx failed. File doesn't exist
+zsh: abort      ./lite_nanodet
+guoliufang@LiuFang bin % ls ../../../hub/onnx/cv/nanodet_m.onnx
+ls: ../../../hub/onnx/cv/nanodet_m.onnx: No such file or directory
+guoliufang@LiuFang bin % open ../../../hub/onnx/cv/          
+guoliufang@LiuFang bin % ls ../../../hub/onnx/cv/nanodet_m.onnx
+../../../hub/onnx/cv/nanodet_m.onnx
+guoliufang@LiuFang bin % ./lite_nanodet                        
+LITEORT_DEBUG LogId: ../../../hub/onnx/cv/nanodet_m.onnx
+=============== Input-Dims ==============
+input_node_dims: 1
+input_node_dims: 3
+input_node_dims: 320
+input_node_dims: 320
+=============== Output-Dims ==============
+Output: 0 Name: cls_pred_stride_8 Dim: 0 :1
+Output: 0 Name: cls_pred_stride_8 Dim: 1 :1600
+Output: 0 Name: cls_pred_stride_8 Dim: 2 :80
+Output: 1 Name: cls_pred_stride_16 Dim: 0 :1
+Output: 1 Name: cls_pred_stride_16 Dim: 1 :400
+Output: 1 Name: cls_pred_stride_16 Dim: 2 :80
+Output: 2 Name: cls_pred_stride_32 Dim: 0 :1
+Output: 2 Name: cls_pred_stride_32 Dim: 1 :100
+Output: 2 Name: cls_pred_stride_32 Dim: 2 :80
+Output: 3 Name: dis_pred_stride_8 Dim: 0 :1
+Output: 3 Name: dis_pred_stride_8 Dim: 1 :1600
+Output: 3 Name: dis_pred_stride_8 Dim: 2 :4
+Output: 4 Name: dis_pred_stride_16 Dim: 0 :1
+Output: 4 Name: dis_pred_stride_16 Dim: 1 :400
+Output: 4 Name: dis_pred_stride_16 Dim: 2 :4
+Output: 5 Name: dis_pred_stride_32 Dim: 0 :1
+Output: 5 Name: dis_pred_stride_32 Dim: 1 :100
+Output: 5 Name: dis_pred_stride_32 Dim: 2 :4
+========================================
+generate_bboxes num: 30
+Default Version Detected Boxes Num: 5
+LITEORT_DEBUG LogId: ../../../hub/onnx/cv/nanodet_m.onnx
+=============== Input-Dims ==============
+input_node_dims: 1
+input_node_dims: 3
+input_node_dims: 320
+input_node_dims: 320
+=============== Output-Dims ==============
+Output: 0 Name: cls_pred_stride_8 Dim: 0 :1
+Output: 0 Name: cls_pred_stride_8 Dim: 1 :1600
+Output: 0 Name: cls_pred_stride_8 Dim: 2 :80
+Output: 1 Name: cls_pred_stride_16 Dim: 0 :1
+Output: 1 Name: cls_pred_stride_16 Dim: 1 :400
+Output: 1 Name: cls_pred_stride_16 Dim: 2 :80
+Output: 2 Name: cls_pred_stride_32 Dim: 0 :1
+Output: 2 Name: cls_pred_stride_32 Dim: 1 :100
+Output: 2 Name: cls_pred_stride_32 Dim: 2 :80
+Output: 3 Name: dis_pred_stride_8 Dim: 0 :1
+Output: 3 Name: dis_pred_stride_8 Dim: 1 :1600
+Output: 3 Name: dis_pred_stride_8 Dim: 2 :4
+Output: 4 Name: dis_pred_stride_16 Dim: 0 :1
+Output: 4 Name: dis_pred_stride_16 Dim: 1 :400
+Output: 4 Name: dis_pred_stride_16 Dim: 2 :4
+Output: 5 Name: dis_pred_stride_32 Dim: 0 :1
+Output: 5 Name: dis_pred_stride_32 Dim: 1 :100
+Output: 5 Name: dis_pred_stride_32 Dim: 2 :4
+========================================
+generate_bboxes num: 8
+ONNXRuntime Version Detected Boxes Num: 2
+LITENCNN_DEBUG LogId: ../../../hub/ncnn/cv/nanodet_m-opt.param
+=============== Input-Dims ==============
+Input: input.1: shape: c=0 h=0 w=0
+=============== Output-Dims ==============
+Output: cls_pred_stride_8: shape: c=0 h=0 w=0
+Output: dis_pred_stride_8: shape: c=0 h=0 w=0
+Output: cls_pred_stride_16: shape: c=0 h=0 w=0
+Output: dis_pred_stride_16: shape: c=0 h=0 w=0
+Output: cls_pred_stride_32: shape: c=0 h=0 w=0
+Output: dis_pred_stride_32: shape: c=0 h=0 w=0
+========================================
+generate_bboxes num: 8
+NCNN Version Detected Boxes Num: 2
+guoliufang@LiuFang bin % ./lite_pfld
+LITEORT_DEBUG LogId: ../../../hub/onnx/cv/pfld-106-v3.onnx
+=============== Input-Dims ==============
+input_node_dims: 1
+input_node_dims: 3
+input_node_dims: 112
+input_node_dims: 112
+=============== Output-Dims ==============
+Output: 0 Name: output1 Dim: 0 :1
+Output: 0 Name: output1 Dim: 1 :40
+Output: 0 Name: output1 Dim: 2 :28
+Output: 0 Name: output1 Dim: 3 :28
+Output: 1 Name: output Dim: 0 :1
+Output: 1 Name: output Dim: 1 :212
+========================================
+Default Version Done! Detected Landmarks Num: 106
+LITEORT_DEBUG LogId: ../../../hub/onnx/cv/pfld-106-v3.onnx
+=============== Input-Dims ==============
+input_node_dims: 1
+input_node_dims: 3
+input_node_dims: 112
+input_node_dims: 112
+=============== Output-Dims ==============
+Output: 0 Name: output1 Dim: 0 :1
+Output: 0 Name: output1 Dim: 1 :40
+Output: 0 Name: output1 Dim: 2 :28
+Output: 0 Name: output1 Dim: 3 :28
+Output: 1 Name: output Dim: 0 :1
+Output: 1 Name: output Dim: 1 :212
+========================================
+ONNXRuntime Version Done! Detected Landmarks Num: 106
+fopen ../../../hub/ncnn/cv/pfld-106-v3.opt.param failed
+fopen ../../../hub/ncnn/cv/pfld-106-v3.opt.bin failed
+LITENCNN_DEBUG LogId: ../../../hub/ncnn/cv/pfld-106-v3.opt.param
+=============== Input-Dims ==============
+=============== Output-Dims ==============
+========================================
+find_blob_index_by_name input failed
+Try
+find_blob_index_by_name output failed
+Try
+output: c=0,h=0,w=0
+NCNN Version Done! Detected Landmarks Num: 0
+guoliufang@LiuFang bin % ls ../../../hub/ncnn/cv/pfld-106-v3.opt.param
+ls: ../../../hub/ncnn/cv/pfld-106-v3.opt.param: No such file or directory
+guoliufang@LiuFang bin % open ../../../hub/ncnn/cv/                     
+guoliufang@LiuFang bin % ./lite_pfld                                  
+LITEORT_DEBUG LogId: ../../../hub/onnx/cv/pfld-106-v3.onnx
+=============== Input-Dims ==============
+input_node_dims: 1
+input_node_dims: 3
+input_node_dims: 112
+input_node_dims: 112
+=============== Output-Dims ==============
+Output: 0 Name: output1 Dim: 0 :1
+Output: 0 Name: output1 Dim: 1 :40
+Output: 0 Name: output1 Dim: 2 :28
+Output: 0 Name: output1 Dim: 3 :28
+Output: 1 Name: output Dim: 0 :1
+Output: 1 Name: output Dim: 1 :212
+========================================
+Default Version Done! Detected Landmarks Num: 106
+LITEORT_DEBUG LogId: ../../../hub/onnx/cv/pfld-106-v3.onnx
+=============== Input-Dims ==============
+input_node_dims: 1
+input_node_dims: 3
+input_node_dims: 112
+input_node_dims: 112
+=============== Output-Dims ==============
+Output: 0 Name: output1 Dim: 0 :1
+Output: 0 Name: output1 Dim: 1 :40
+Output: 0 Name: output1 Dim: 2 :28
+Output: 0 Name: output1 Dim: 3 :28
+Output: 1 Name: output Dim: 0 :1
+Output: 1 Name: output Dim: 1 :212
+========================================
+ONNXRuntime Version Done! Detected Landmarks Num: 106
+LITENCNN_DEBUG LogId: ../../../hub/ncnn/cv/pfld-106-v3.opt.param
+=============== Input-Dims ==============
+Input: input: shape: c=0 h=0 w=0
+=============== Output-Dims ==============
+Output: output: shape: c=0 h=0 w=0
+========================================
+output: c=1,h=1,w=212
+NCNN Version Done! Detected Landmarks Num: 106
+guoliufang@LiuFang bin % 
