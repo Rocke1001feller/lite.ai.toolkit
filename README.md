@@ -1099,13 +1099,9 @@ In addition, [MNN](https://github.com/alibaba/MNN), [NCNN](https://github.com/Te
 
 * change the `build.sh` with `DENABLE_MNN=ON`,`DENABLE_NCNN=ON` or `DENABLE_TNN=ON`, such as
 ```shell
-cd build && cmake \
-  -DCMAKE_BUILD_TYPE=MinSizeRel \
-  -DINCLUDE_OPENCV=ON \   # Whether to package OpenCV into lite.ai.toolkit, default ON; otherwise, you need to setup OpenCV yourself.
-  -DENABLE_MNN=ON \       # Whether to build with MNN,  default OFF, only some models are supported now.
-  -DENABLE_NCNN=OFF \     # Whether to build with NCNN, default OFF, only some models are supported now.
-  -DENABLE_TNN=OFF \      # Whether to build with TNN,  default OFF, only some models are supported now.
-  .. && make -j8
+cd build
+cmake -DCMAKE_BUILD_TYPE=MinSizeRel -DINCLUDE_OPENCV=ON -DENABLE_MNN=OFF -DENABLE_NCNN=ON -DENABLE_TNN=OFF ..
+make -j8
 ```
 * use the MNN, NCNN or TNN version interface, see [demo](https://github.com/DefTruth/lite.ai.toolkit/blob/main/examples/lite/cv/test_lite_nanodet.cpp), such as
 ```C++
